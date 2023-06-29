@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @keyframes animationFoto {
   0% {
     transform: rotate(0deg);
@@ -54,6 +55,7 @@
   }
 }
 
+
 @keyframes animationAlbum {
   0% {
     transform: scale(1);
@@ -78,7 +80,6 @@
   font-size: 40px;
   width: 600px;
   text-align: left;
-  
 }
 .d1, .d2,.d3,.d4,.d5,.d6,.d7{
  display: flex;
@@ -95,7 +96,7 @@
   box-shadow: 25px 23px 25px 3px rgba(0,0,0,0.92);
   animation: animationFoto 5s infinite;
 }
-.d2,.d4,.d6{
+.d2,.d4,.d6, .d8{
   background-color: lightcoral;
 }
 .pngimage{
@@ -181,4 +182,22 @@
 
 .d6 p,.d7 p{
   font-size: 36px;
+}
+
+.d8{
+  padding: 100px 15%;
+  height: 700px;
+  align-items: center;
+  position: relative;
+}
+.d8 p{
+  color: white;
+  font-size: 40px;
+  width: 2000px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.d8 h1{
+  font-family: Great Vibes;
+  margin: 0px;
 }

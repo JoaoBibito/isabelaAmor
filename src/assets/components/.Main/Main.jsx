@@ -43,7 +43,6 @@ import t5 from "../../img/t5.jpeg";
 import t6 from "../../img/t6.jpeg";
 import t7 from "../../img/t7.jpeg";
 import t8 from "../../img/t8.jpeg";
-import t9 from "../../img/t9.jpeg";
 import Typcal from "react-typical";
 function Main() {
  return (
@@ -71,7 +70,7 @@ function Main() {
      <Typcal
       steps={[
        100,
-       "Desde a escola eu sempre tive uma grande admiração por você, até que um dia teve a felicidade de ter você como companheira. Com esse laço que se criou entre a gente eu fui me apegando cada vez mais a você, e a admiração só aumentava.",
+       "Desde a escola eu sempre tive uma grande admiração por você, até que um dia teve a felicidade de ter você como companheira. Com esse laço que se criou entre a gente eu fui me apegando cada vez mais a você, e a admiração só aumentava, aumentava, e aumenta inda mais.",
       ]}
      />
     </p>
@@ -94,7 +93,7 @@ function Main() {
      <br />
      Algumas viajens, alguns momentos marcaram e isso não tem como negar, mas
      cada segundo ao seu lado é importante pra mim, seja na academia, indo para
-     o serviço cansados, voltando mais tarde, no fim de semana etc...
+     o serviço cansados, voltando mais tarde, nas corridas, no fim de semana etc...
      <br />
     </p>
     <div className="dFotos">
@@ -139,7 +138,7 @@ function Main() {
    </div>
    <div className="d6">
     <p>
-      São pequenos momentos que marcam, fotos, vídeos, lembranças, abraços. Infelizmente voce tomou uma decisão dificil de mais, onde até hoje eu não aceitei, mas to tentando respeitar, te dar seu tempo, mas eu tenho esperança e continuo orando, para que voce mude de idéia, para eu te fazer feliz, e mostrar e demonstrar o tanto que eu te amo. Hoje que estamos separados eu tenho tantas ideias na cabeça, sem contar os planos que eu ja pensava, e orava para o papai do céu. 
+      São pequenos momentos que marcam, fotos, vídeos, lembranças, abraços. Infelizmente voce tomou uma decisão dificil de mais, onde até hoje eu não aceitei, mas estou tentando respeitar, dar seu tempo, mas eu tenho esperança e continuo orando, para que você mude de idéia, para eu te fazer feliz, e mostrar e demonstrar o tanto que eu te amo. Hoje que estamos separados eu tenho tantas ideias na cabeça, sem contar os planos que eu ja pensava, e orava para o papai do céu. 
     </p>
     <div className="dFotos">
      <img src={e1} alt="1" />
@@ -153,11 +152,7 @@ function Main() {
     </div>
    </div>
    <div className="d7">
-    <p>
-      Hoje entendo o ritmo corrido do seu trablaho, ja cobrei tantas coisas de você que não faziam sentido, só peço que entenda meu lado.<br/>
-      Voce é uma mulher 10, amiga, parceira, namorada, filha e funcionaria, tenho muito orgulho de voce. Hoje eu sinto receio de conversar com voce por conta da nossa situação, não sei como anda seus pensamentos, mas quero te manter perto, para ambos verem o progresso do outro.
-    </p>
-     <div className="dFotos">
+   <div className="dFotos">
      <img src={t1} alt="1" />
      <img src={t2} alt="2" />
      <img src={t3} alt="3" />
@@ -167,6 +162,27 @@ function Main() {
      <img src={t7} alt="8" />
      <img src={t8} alt="9" />
     </div>
+    <p>
+      Hoje entendo o ritmo corrido do seu trabalho, ja cobrei tantas coisas de você que não faziam sentido, só peço que entenda meu lado.<br/>
+      Voce é uma mulher 10, amiga, parceira, namorada, filha, funcionaria e psicologa, tenho muito orgulho de voce. Hoje eu sinto receio de conversar com voce por conta da nossa situação, não sei como anda seus pensamentos, mas quero te manter perto, para ambos verem o progresso do outro.
+    </p>
+    
+    </div>
+    <div className="d8">
+    <img src={bj} className="bj1" alt="beijos" />
+    <img src={bj} className="bj2" alt="beijos" />
+    <img src={bj} className="bj3" alt="beijos" />
+    <img src={bj} className="bj4" alt="beijos" />
+    <img src={bj} className="bj5" alt="beijos" />
+    <img src={bj} className="bj6" alt="beijos" />
+    <img src={bj} className="bj7" alt="beijos" />
+    <img src={bj} className="bj8" alt="beijos" />
+    <img src={bj} className="bj9" alt="beijos" />
+    <img src={bj} className="bj10" alt="beijos" /> 
+      <p>Isa top linda 16, eu quero me desculpar por não demonstrar o quão importante você é em minha vida, que na falta de um bom dialogo você enxergou uma forma diferente. Eu sempre fiz questão que estivesse do meu lado, não importa o lugar nem as pessoas, pois você sempre foi minha companhia mais importante. Hoje estou disposto a mudar alguns atos que ja vinham melhorando, mas não por completo. Quero mudar por mim, pela minha familia que esta em casa, e óbvio pela minha futura mulher quem abriu meu olho.<br/>
+      Nossa criação foi bem diferente, e vemos isso hoje no jeito de pensar e agir, porem juntos vamos nos adptando e melhorando cada vez mais. Fico extremamente triste porque foram 4 anos incriveis, que eu queria que fossem +4, +4, +4 assim por diante. Você me fez muito feliz, tanto que eu nem sei explicar, e eu só queria retribuir, te fazer uma princesa...Enfim...<br/>
+      Continue pensando em nós, com paciência e carinho, que eu estou aqui de braços abertos te esperando, porque nosso futuro esta destinado nas mãos de Deus.  </p><br/>
+      <h1> ❤ Eu te amo de paixão ❤</h1>
     </div>
   </article>
  );
